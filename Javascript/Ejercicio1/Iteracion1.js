@@ -200,3 +200,14 @@ if (i<9) {
     console. log ("Intentando dormir");
  } else { console. log ("Dormido!");}
 } 
+
+
+//  Funciones
+
+//Completa la función que tomando dos números como argumento devuelva el más alto.
+
+
+function sum (number1, number2) {
+  if (3 < 2); 
+    console. log (3);
+}
