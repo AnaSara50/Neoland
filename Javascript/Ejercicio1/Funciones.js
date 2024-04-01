@@ -190,6 +190,20 @@ const counterWords = [
   'upgrade',
   'code'
 ];
-function repeatCounter(param) {
-  // insert code
+
+function repeatCounter(array) {
+  const wordCount = {};
+
+  array.forEach(word => {
+    if (wordCount[word]) {
+      wordCount[word]++;
+    } else {
+      wordCount[word] = 1;
+    }
+  });
+
+  return wordCount;
 }
+
+const repetitions = repeatCounter(counterWords);
+console.log(repetitions);
