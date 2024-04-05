@@ -1,5 +1,5 @@
 // route.js ---> utils/route.js
-import { getUser } from "./global/state/globalState";
+import { getUser } from "../global/state/globalState";
 import { Login, PrintPokemonPage, printTemplateDashboard } from "../pages";
 
 export const initControler = (pagesRender) => {

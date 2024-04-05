@@ -1,5 +1,5 @@
-//Dashboard.js ------> src/pages/Dashboard/Dashboard.js
-import { initControler } from "../../utils";
+// Dashboard.js -----> src/pages/Dashboard/Dashboard.js
+import { getInfo, initControler } from "../../utils";
 import "./Dashboard.css";
 
 const template = () => `
@@ -55,4 +55,10 @@ export const printTemplateDashboard = () => {
 
   /** metemos los escuchadores de la pagina */
   addEventListeners();
+
+  /** y por ultimo traemos la info que hace la llamada asincrona a la api de pokemon y lo setea en el estado
+   */
+//--------------------------------------------- LO NUEVO -------------------------
+  getInfo();
+//---------------------------------------------------------------------------------
 };

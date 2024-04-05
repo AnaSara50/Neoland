@@ -1,6 +1,6 @@
 // main.js 
 
-import { initTemplate } from "./src/utils";
+import { initControler, initTemplate } from "./src/utils";
 import "./style.css";
 
 //! -----> renderizamos las etiquetas de la estructura inicial
