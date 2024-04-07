@@ -9,8 +9,8 @@ import "./Header.css";
 
 const template = () => `
 <img
-src="https://res.cloudinary.com/dq186ej4c/image/upload/v1682679162/header_giqdug.jpg"
-alt="title hub game website (app)"
+src="https://res.cloudinary.com/dlefk3lwg/image/upload/v1712494621/images_s4lm3q.png"
+alt="title game website (app)"
 class="logo"/>
   <nav>
     <img
