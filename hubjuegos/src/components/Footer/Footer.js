@@ -1,7 +1,7 @@
 // --- Footer.js -----> src/components/Footer/Footer.js
 import "./Footer.css";
 const template = () => `
-<h3><span>With 💘 to </span> Neoland</h3>
+<h2><span>With 💘 to </span> Neoland</h2>
 `;
 
 export const PrintTemplateFooter = () => {

@@ -17,10 +17,10 @@ const template = () => `
       <li>
         <figure>
           <img
-            src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761641/pngwing.com_1_iq8zfk.png"
-            alt=" go to wacka topo game"
+            src="https://res.cloudinary.com/dlefk3lwg/image/upload/v1712700266/imagen5_ckbbxx.png"
+            alt=" go to hangman game"
           />
-          <h2>WACKA TOPO</h2>
+          <h2>HANGMAN GAME</h2>
         </figure>
       </li>
       <li>

@@ -9,9 +9,9 @@ export const changeColorRGB = () => {
     return random;
   };
 
-  let R = randomNumber(0, 255);
-  let G = randomNumber(0, 255);
-  let B = randomNumber(0, 255);
+  let R = randomNumber(200, 255);
+  let G = randomNumber(200, 255);
+  let B = randomNumber(200, 255);
 
   const color = `rgb(${R},${G},${B})`;
   return color;
