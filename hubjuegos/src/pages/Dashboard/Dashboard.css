@@ -1,4 +1,6 @@
 /* Dashboard.css -----> src/pages/Dashboard/Dashboard.css*/
+/*Reset de la página*/
+
 
 #containerDashboard {
   display: flex;

@@ -9,22 +9,22 @@ import "./Header.css";
 
 const template = () => `
 <img
-src="https://res.cloudinary.com/dlefk3lwg/image/upload/v1712494621/images_s4lm3q.png"
+src="https://res.cloudinary.com/dlefk3lwg/image/upload/v1712736147/iconogame_jefyii.png"
 alt="title game website (app)"
 class="logo"/>
   <nav>
     <img
-      src="https://res.cloudinary.com/dq186ej4c/image/upload/v1682684561/changeColor_tat29q.png"
+      src="https://res.cloudinary.com/dlefk3lwg/image/upload/v1712735177/ruedacromatica_qdraxo.png"
       alt=" change to style mode page"
       id="changeColor"
     />
     <img
-      src="https://res.cloudinary.com/dq186ej4c/image/upload/v1682685633/home_nekvs0.png"
+      src="https://res.cloudinary.com/dlefk3lwg/image/upload/v1712735578/zarla-juega-juega-1x1-2400x2400-20220201-jcjwh4qmypm7gbfxbwjf_hvd7ln.png"
       alt=" navigate to home app"
       id="buttonDashboard"
     />
     <img
-      src="https://res.cloudinary.com/dq186ej4c/image/upload/v1682679055/logout_arz0gw.png"
+      src="https://res.cloudinary.com/dlefk3lwg/image/upload/v1712735743/login_kryrsx.png"
       alt="logout"
       id="buttonLogout"
     />

@@ -1,0 +1,101 @@
+body {
+    background-image: url('https://res.cloudinary.com/dlefk3lwg/image/upload/v1712641952/imagenahorcado_g9o1a1.jpg'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* se utiliza para que una imagen de fondo este fija mientras el contenido se desplaza.*/
+    
+}
+
+#info{
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.container{
+    
+    margin:auto;
+    margin-top: 30px;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+#ahorcado {
+     background-image: url("https://res.cloudinary.com/dlefk3lwg/image/upload/v1712604276/haorcado_agcqpc.png");
+     width: 300px;
+     height: 330px;
+     margin-top: 30px;
+
+    }
+
+
+
+#button {
+
+    background-color: rgb(255, 64, 0);
+    color : white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#input{
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-top: 15px;
+    width: calc(100% - 30px);
+    max-width: 50px;
+} 
+
+#hiddenWord {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#titulo {
+    color: rgb(187, 0, 0);
+}
+
+#retryButton { background-color: rgb(255, 64, 0);
+    color : white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: auto;
+
+}
+
+#texto {
+    color:rgb(22, 154, 2);
+    font-weight: bold;
+    font-size:x-large;
+}
+
+#volverAJugar{
+    background-color: rgb(255, 64, 0);
+    color : white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: auto;
+
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        background-image: url('https://res.cloudinary.com/dlefk3lwg/image/upload/v1712641952/imagenahorcado_g9o1a1.jpg'); 
+   background-size: 120%;
+    }
+    body { background-image: url('https://res.cloudinary.com/dlefk3lwg/image/upload/v1712641952/imagenahorcado_g9o1a1.jpg'); 
+        background-size: 120%;}
+  }
