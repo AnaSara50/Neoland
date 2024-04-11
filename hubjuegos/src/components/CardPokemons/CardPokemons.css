@@ -37,7 +37,7 @@
   }
   
   .grass {
-    background-color: #63bb5b75;
+    background-color: #229518;
   }
 
 /*figure.grass es un selector que está seleccionando todos los elementos <figure> 
@@ -45,57 +45,57 @@ que tienen la clase grass
 */
 
   figure.grass {
-    border: 10px solid #3f8a39;
+    border: 10px solid #297c23;
   }
   
   figure.bug {
-    border: 10px solid #719823;
+    border: 10px solid #9bc150;
   }
   .bug {
-    background-color: #6d9321;
+    background-color: #5e860e;
   }
   
   figure.dark {
-    border: 10px solid #413c4a;
+    border: 10px solid #b29adf;
   }
   .dark {
-    background-color: #464050;
+    background-color: #49326f;
   }
   figure.dragon {
-    border: 10px solid #085da8;
+    border: 10px solid #3b91dd;
   }
   .dragon {
     background-color: #0a6dc4;
   }
   figure.electric {
-    border: 10px solid #c3a82f;
+    border: 10px solid #e8ce5c;
   }
   .electric {
-    background-color: #f3d13b;
+    background-color: #e0bf2b;
   }
   
   figure.fairy {
     border: 10px solid #c376be;
   }
   .fairy {
-    background-color: #ec8fe6;
+    background-color: #ea54e0;
   }
   figure.fighting {
-    border: 10px solid #a93354;
+    border: 10px solid #ec7899;
   }
   .fighting {
-    background-color: #ce4068;
+    background-color: #d52e5e;
   }
   
   figure.fire {
-    border: 10px solid #cd7c42;
+    border: 10px solid #f6a972;
   }
   .fire {
-    background-color: #ff9b54;
+    background-color: #ec7d2e;
   }
   
   figure.flying {
-    border: 10px solid #7c91be;
+    border: 10px solid #97b1eb;
   }
   .flying {
     background-color: #8fa8dd;
@@ -104,57 +104,57 @@ que tienen la clase grass
     border: 10px solid #5269ac;
   }
   .ghost {
-    background-color: #5269ac;
+    background-color: #3653ac;
   }
   
   figure.ground {
-    border: 10px solid #b6633a;
+    border: 10px solid #db8b62;
   }
   .ground {
-    background-color: #d97746;
+    background-color: #d8662d;
   }
   figure.ice {
-    border: 10px solid #5aa197;
+    border: 10px solid #b0f4eb;
   }
   .ice {
-    background-color: #74cec1;
+    background-color: #42d2bd;
   }
   figure.normal {
-    border: 10px solid #777f85;
+    border: 10px solid #a1d2f7;
   }
   .normal {
-    background-color: #9099a1;
+    background-color: #146cb9;
   }
   
   figure.poison {
-    border: 10px solid #8f59a8;
+    border: 10px solid #b17dc9;
   }
   .poison {
-    background-color: #aa6ac8;
+    background-color: #a357c6;
   }
   
   figure.psychic {
-    border: 10px solid #d05e62;
+    border: 10px solid #da7b7e;
   }
   .psychic {
-    background-color: #f97176;
+    background-color: #d74c51;
   }
   figure.rock {
-    border: 10px solid #c7b78b;
+    border: 10px solid #e5dfcd;
   }
   .rock {
-    background-color: #c7b78b;
+    background-color: #ddbe68;
   }
   
   figure.steel {
-    border: 10px solid #5a8ea1;
+    border: 10px solid #0f6686;
   }
   .steel {
-    background-color: #5a8ea1;
+    background-color: #65cdf3;
   }
   figure.water {
-    border: 10px solid #3f77af;
+    border: 10px solid #4683c0;
   }
   .water {
-    background-color: #4d91d5;
+    background-color: #275686;
   }
