@@ -15,7 +15,7 @@ const template = () => `
         </figure>
       </li>
       <li>
-        <figure>
+        <figure id="navigateJuego">
           <img
             src="https://res.cloudinary.com/dlefk3lwg/image/upload/v1712735856/1hangman_dfkvdf.png"
             alt=" go to hangman game"
@@ -24,7 +24,7 @@ const template = () => `
         </figure>
       </li>
       <li>
-        <figure>
+        <figure id="navigateMemory">
           <img
             src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761735/6168776_kfna36.png"
             alt="go to memory game"
@@ -44,9 +44,17 @@ const addEventListeners = () => {
   navigatePokemon.addEventListener("click", () => {
     initControler("Pokemon");
   });
+
+  const navigateAhorcado = document.getElementById("navigateJuego");
+  navigateAhorcado.addEventListener("click", () => {
+    initControler("juego");
+  });
+
+  
 };
 
 export const printTemplateDashboard = () => {
+
   /** Como siempre las paginas se renderizan en el main por lo cual inyectamos el template en el contenedor del main */
   document.querySelector("main").innerHTML = template();
 
