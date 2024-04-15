@@ -22,7 +22,7 @@ export const initControler = (pagesRender) => {
     case "Dashboard":
       printTemplateDashboard();
       break;
-    case "Ahorcado":
+    case "juego":
       PrintAhorcado();
       break;
     case "Login":

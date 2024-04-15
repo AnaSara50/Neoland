@@ -15,7 +15,7 @@ const template = () => `
         </figure>
       </li>
       <li>
-        <figure id="navigateJuego">
+        <figure id="navigateAhorcado">
           <img
             src="https://res.cloudinary.com/dlefk3lwg/image/upload/v1712735856/1hangman_dfkvdf.png"
             alt=" go to hangman game"
@@ -45,7 +45,7 @@ const addEventListeners = () => {
     initControler("Pokemon");
   });
 
-  const navigateAhorcado = document.getElementById("navigateJuego");
+  const navigateAhorcado = document.getElementById("navigateAhorcado");
   navigateAhorcado.addEventListener("click", () => {
     initControler("juego");
   });

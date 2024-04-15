@@ -1,25 +1,33 @@
 
-
+import { evaluateWord } from "../../utils/juegoahorcado";
+import "./juego.css";
 
 
 const templateAhorcado = ()=> `   
-
-<div class="container">
-<div id="info">
+<div id="cuerpo">
+    <div class="container">
+        <div id="info">
+            <div id="ahorcado">
     <h1 id="titulo">El juego del ahorcado</h1>
     <p id="hiddenWord"></p><br>
     <p id="texto">Introduce una letra</p>
     <input id="input" type="text"><br>
     <button id="button">Comprobar</button> 
     <button id="retryButton"></button>
-<div id="ahorcado">
- </div> 
- </div>   
-</div>
+            </div> 
+        </div>   
+    </div>
 
-<button id="volverAJugar">Volver a jugar</button>`;
+    <button id="volverAJugar">Volver a jugar</button>
+</div>`;
+
+const listeners = ()=>{ 
+const boton = document.getElementById("button")
+boton.addEventListener("click", evaluateWord)
+}
 
 
 export const PrintAhorcado =()=>{
     document.querySelector("main").innerHTML= templateAhorcado();
+    listeners();
 }

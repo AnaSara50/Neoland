@@ -1,10 +1,18 @@
-body {
-    background-image: url('https://res.cloudinary.com/dlefk3lwg/image/upload/v1712641952/imagenahorcado_g9o1a1.jpg'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+/*reseteo de la página
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}*/
+
+
+#cuerpo{
+    background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1712641952/imagenahorcado_g9o1a1.jpg); 
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-attachment: fixed; /* se utiliza para que una imagen de fondo este fija mientras el contenido se desplaza.*/
-    
 }
 
 #info{
@@ -24,7 +32,7 @@ body {
 }
 
 #ahorcado {
-     background-image: url("https://res.cloudinary.com/dlefk3lwg/image/upload/v1712604276/haorcado_agcqpc.png");
+     background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713091476/haorcado_s2xmdf.png);
      width: 300px;
      height: 330px;
      margin-top: 30px;
@@ -32,17 +40,17 @@ body {
     }
 
 
-
 #button {
 
-    background-color: rgb(255, 64, 0);
-    color : white;
-    font-weight: bold;
-    border-radius: 10px;
-    border: none;
-    padding: 15px;
-    margin-top: 15px;
-}
+        background-color: rgb(255, 64, 0);
+        color : white;
+        font-weight: bold;
+        border-radius: 10px;
+        border: none;
+        padding: 15px;
+        margin-top: 15px;
+    }
+
 
 #input{
     padding: 8px;
@@ -62,7 +70,7 @@ body {
     color: rgb(187, 0, 0);
 }
 
-#retryButton { background-color: rgb(255, 64, 0);
+#retryButton { background: var(--background-color, rgb(0, 140, 255));
     color : white;
     font-weight: bold;
     border-radius: 10px;
@@ -74,14 +82,14 @@ body {
 }
 
 #texto {
-    color:rgb(22, 154, 2);
+    color: var(--color-texto, rgb(195, 0, 255));
     font-weight: bold;
     font-size:x-large;
 }
 
 #volverAJugar{
     background-color: rgb(255, 64, 0);
-    color : white;
+    color: var(--color-texto, rgb(255, 255, 255));
     font-weight: bold;
     border-radius: 10px;
     border: none;
@@ -91,11 +99,39 @@ body {
 
 }
 
-@media screen and (max-width: 640px) {
-    .container {
-        background-image: url('https://res.cloudinary.com/dlefk3lwg/image/upload/v1712641952/imagenahorcado_g9o1a1.jpg'); 
-   background-size: 120%;
-    }
-    body { background-image: url('https://res.cloudinary.com/dlefk3lwg/image/upload/v1712641952/imagenahorcado_g9o1a1.jpg'); 
-        background-size: 120%;}
+p {
+    color: var(--color-texto, rgb(255, 238, 0));
   }
+
+
+
+@media screen and (max-width: 640px) {
+   
+   /* #cuerpo {
+        background-color: antiquewhite;*/
+    }
+
+     #cuerpo { background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713108548/2imagenahorcado_x6biml.jpg);
+        /*background-size: 120%; 
+        background-size: cover;*/
+        }
+
+
+  @media screen and (min-width: 640px) and (max-width: 1280px) {
+   
+       #cuerpo { background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713108548/2imagenahorcado_x6biml.jpg);
+        /*background-size: 120%;
+        background-size: cover;*/
+     }
+  }
+
+     @media screen and (min-width: 1280px) {
+      
+        
+
+           #cuerpo { background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713108548/2imagenahorcado_x6biml.jpg);
+           /* background-size: 120%;
+           background-size: cover;*/
+
+          }
+        }
