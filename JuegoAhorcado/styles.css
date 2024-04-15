@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('https://res.cloudinary.com/dlefk3lwg/image/upload/v1712641952/imagenahorcado_g9o1a1.jpg'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-image: url('https://res.cloudinary.com/dlefk3lwg/image/upload/v1712641952/imagenahorcado_g9o1a1.jpg'); 
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
