@@ -22,6 +22,7 @@ const PORT = process.env.PORT;
 
 //! -----------------------CORS-------------
 const cors = require("cors");
+
 app.use(cors());
 
 //! ------------------ limitaciones de cantidad en el back end
@@ -29,7 +30,7 @@ app.use(express.json({ limit: "5mb" }));
 app.use(express.urlencoded({ limit: "5mb", extended: false }));
 
 //! -----------------> RUTAS
-const UserRoutes = require("./src/api/routes/User.router");
+const UserRoutes = require("./src/api/routes/User.routes");
 app.use("/api/v1/users/", UserRoutes);
 
 //! --------------- generamos un error de cuando no see encuentre la ruta
