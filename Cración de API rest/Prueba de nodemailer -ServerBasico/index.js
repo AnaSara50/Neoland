@@ -26,7 +26,7 @@ router.get("/sendNewMail", (req, res, next) => {
 
   const mailOptions = {
     from: email,
-    to: "escaneruclm@gmail.com",
+    to: "lafuenteana50@gmail.com",
     subject: "Confirmation TEST NODEMAILER",
     text: `ok todo bien`,
   };
