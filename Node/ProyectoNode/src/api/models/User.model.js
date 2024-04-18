@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 // el nombre del esquema en mayusculas
 const UserSchema = new mongoose.Schema(
   {
+    /*los parametros del body*/ 
     email: {
       type: String,
       required: true,

@@ -21,6 +21,7 @@ configCloudinary();
 const PORT = process.env.PORT;
 
 //! -----------------------CORS-------------
+
 const cors = require("cors");
 
 app.use(cors());

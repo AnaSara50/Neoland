@@ -1,3 +1,5 @@
+
+/* setError envia,setea un error*/ 
 const setError = (code, message) => {
     const error = new Error();
   

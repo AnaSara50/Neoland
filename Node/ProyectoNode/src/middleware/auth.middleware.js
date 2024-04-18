@@ -6,14 +6,15 @@ dotenv.config();
 const isAuth = async (req, res, next) => {
   const token = req.headers.authorization?.replace("Bearer ", "");
 
+  /*si no es token (porque lleva !) instancia y retorna el error que tu indiques */
   if (!token) {
     return next(new Error("Unauthorized"));
   }
-
+  /*donde hay un try siempre tiene que haber un catch. Es para capturar errores */
   try {
     const decoded = verifyToken(token, process.env.JWT_SECRET);
 
-    /// solo se crea req.user cuando es un endpoint authenticado ---> tiene como middleware el auth
+    /// solo se crea req.user cuando es un endpoint (final de la url) authenticado ---> tiene como middleware el auth
     req.user = await User.findById(decoded.id);
     next();
   } catch (error) {
