@@ -44,7 +44,7 @@ const evaluateWord = () => {
      */
     document.getElementById("hiddenWord").innerHTML = hiddenWord;
     if (!hiddenWord.includes("_")) {
-        document.getElementById("info").innerHTML = "<h1>¡Has ganado! ;)</h1>";
+        document.getElementById("info").innerHTML = "¡Has ganado! ;)";
         document.getElementById("volverAJugar").style.display = "block"
      document.getElementById("volverAJugar").addEventListener("click", ()=>{
                 location.reload();
@@ -56,7 +56,7 @@ const evaluateWord = () => {
         /**Primero accede al selector id y después a la propiedad del estilo dentro del documento CSS */
         document.getElementById("ahorcado").style.backgroundPosition = -errorCounter * 280 + "px";
         if (errorCounter === 5) {
-            document.getElementById("retryButton").innerHTML = "<h2>Has perdido :( vuelve a jugar</h2>";
+            document.getElementById("retryButton").innerHTML = "Has perdido :( vuelve a jugar";
             document.getElementById("retryButton").addEventListener("click", function() {
                 location.reload(); // Esto recarga la página, reiniciando todo el juego
             });
