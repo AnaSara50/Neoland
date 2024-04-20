@@ -30,7 +30,7 @@
  * donde el carácter en la posición especificada por el índice se reemplaza por el carácter
  * proporcionado.
  */
-const replaceAt = (string, character, index) => {
+ const replaceAt = (string, character, index) => {
     
   return string.substring(0, index) + character + string.substring(index + character.length);
 }
@@ -40,7 +40,7 @@ const replaceAt = (string, character, index) => {
 * Variable const con nombre secretWord que declara la función Math.random para seleccionar un elemento
 * del array aleatoriamente.
 */
-const words=["cometieron", "tres", "errores", "sergio", "leone", "clint", "eastwood"];
+ const words=["cometieron", "tres", "errores", "sergio", "leone", "clint", "eastwood"];
 const secretWord = words[Math.floor(Math.random() * words.length)];
 let hiddenWord = secretWord.replace(/./g, "_ ");
 //document.getElementById("volverAJugar").style.display = "none"
@@ -70,10 +70,11 @@ export const evaluateWord = () => {
    * por lo que se ejecuta el bloque de código dentro de las llaves { ... }.
    */
   document.getElementById("hiddenWord").innerHTML = hiddenWord;
-  if (!hiddenWord.includes("_")) {
-      document.getElementById("info").innerHTML = "<h1>¡Has ganado! ;)</h1>";
+   {
+    if (!hiddenWord.includes("_"))
+    document.getElementById("volverAJugar").innerHTML = "¡Has ganado! ;) vuelve a jugar";
       document.getElementById("volverAJugar").style.display = "block"
-   document.getElementById("volverAJugar").addEventListener("click", ()=>{
+   document.getElementById("volverAJugar").addEventListener("click", function(){
               location.reload();
       })
   }
@@ -83,7 +84,7 @@ export const evaluateWord = () => {
       /**Primero accede al selector id y después a la propiedad del estilo dentro del documento CSS */
       document.getElementById("ahorcado").style.backgroundPosition = -errorCounter * 280 + "px";
       if (errorCounter === 5) {
-          document.getElementById("retryButton").innerHTML = "<h2>Has perdido :( vuelve a jugar</h2>";
+          document.getElementById("retryButton").innerHTML = "Has perdido :( vuelve a jugar";
           document.getElementById("retryButton").addEventListener("click", function() {
               location.reload(); // Esto recarga la página, reiniciando todo el juego
           });
