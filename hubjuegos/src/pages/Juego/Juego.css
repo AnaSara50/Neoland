@@ -1,4 +1,4 @@
-/*reseteo de la página*/
+/*reseteo de la página
 * {
     padding: 0;
     margin: 0;
@@ -7,41 +7,29 @@
 }
 
 
-/*#cuerpo{
+#cuerpo{
     background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713108548/2imagenahorcado_x6biml.jpg); 
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo 
     background-position: center; /* Centra la imagen 
     background-repeat: no-repeat; /* Evita que la imagen se repita 
-    background-attachment: fixed; /* se utiliza para que una imagen de fondo este fija mientras el contenido se desplaza.
-}*/
+    background-attachment: fixed; se utiliza para que una imagen de fondo este fija mientras el contenido se desplaza.
+}
 
-.container{
+#container{
     
     margin:auto;
-    margin-top: 30px;
-    max-width: 700px;
+    margin-top: 100px;
+    max-width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 
 }
 
-#info{
-    flex-wrap: wrap;
-    margin-top: auto;
 
-}
-
-#ahorcado {
-    background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713091476/haorcado_s2xmdf.png);
-    width: 300px;
-    height: 330px;
-    /*margin-top: 50px;*/
-    /*margin-left: 50px;*/
-
-   }
 
 #titulo {
     color: rgb(187, 0, 0);
+    margin-left: 50px;
 }
 
 #hiddenWord {
@@ -53,6 +41,7 @@
     color: var(--color-texto, rgb(195, 0, 255));
     font-weight: bold;
     font-size:x-large;
+    
 }
 
 #input{
@@ -60,8 +49,9 @@
     border-radius: 8px;
     border: 1px solid black;
     margin-top: 15px;
-    width: calc(100% - 30px);
+    width: 50px;
     max-width: 50px;
+    margin-left: 50px;
 } 
 
 #button {
@@ -86,6 +76,15 @@
 
 }
 
+#ahorcado {
+    background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713091476/haorcado_s2xmdf.png);
+    width: 300px;
+    height: 330px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+   }
+
 #volverAJugar{
     background-color: rgb(255, 64, 0);
     color: var(--color-texto, rgb(255, 255, 255));
@@ -100,30 +99,144 @@
 }
 
 p {
-    color: var(--color-texto, rgb(255, 238, 0));
+    color: var(--color-texto, rgb(79, 74, 1));
   }
 
   @media screen and (max-width: 640px) {
 
-   /*{ background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713108548/2imagenahorcado_x6biml.jpg);
-      background-size: 120%; 
+    #cuerpo { background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713108548/2imagenahorcado_x6biml.jpg);
+     
       background-size: cover;
-      }*/
+      }
   }
 
   @media screen and (min-width: 640px) and (max-width: 1280px) {
    
-       /*#cuerpo { background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713108548/2imagenahorcado_x6biml.jpg);
-       /* background-size: 120%;
+       #cuerpo { background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713108548/2imagenahorcado_x6biml.jpg);
+        
         background-size: cover;
-     }*/
+     }
   }
 
      @media screen and (min-width: 1280px) {
       
-          /* #cuerpo { background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713108548/2imagenahorcado_x6biml.jpg);
-            /*background-size: 120%;
+           #cuerpo { background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713108548/2imagenahorcado_x6biml.jpg);
+        
            background-size: cover;
 
-          }*/
+          }
+        }*/
+
+
+
+        
+        
+       #container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://res.cloudinary.com/dlefk3lwg/image/upload/v1713108548/2imagenahorcado_x6biml.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        #cuerpo {
+            height: 100vh;
+            display: flex;
+            
+            
+        }
+        
+        #titulo {
+            text-align: left;
+            color: rgb(255, 145, 0);
+        }
+        
+        #hiddenWord {
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        
+        #texto {
+            color: var(--color-texto, rgb(255, 140, 0));
+            font-weight: bold;
+            font-size: x-large;
+            margin-bottom: 20px;
+        }
+        
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #ahorcado {
+            background-image: url(https://res.cloudinary.com/dlefk3lwg/image/upload/v1713091476/haorcado_s2xmdf.png);
+            width: 300px;
+            height: 330px;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+        
+        #info {
+            text-align: center;
+            flex-wrap: wrap;
+            
+        }
+        
+        #input {
+            margin-top: 10px;
+            padding: 5px;
+            border-radius: 7px;
+            cursor:pointer;
+        }
+        
+        #button,
+        #retryButton,
+        #volverAJugar {
+            margin-top: 10px;
+            padding: 5px 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        #button {
+            background-color: #007bff;
+        }
+        
+        #retryButton {
+            background-color: #dc3545;
+           
+        }
+        
+        #volverAJugar {
+            background-color: #28a745;
+            color: var(--color-texto, rgb(255, 255, 255));
+        }
+        
+        p {
+            color: var(--color-texto, rgb(33, 193, 75));
+        }
+        
+        @media screen and (max-width: 768px) {
+            #container {
+                flex-direction: column;
+                text-align: center;
+            }
+        
+            #ahorcado {
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+        
