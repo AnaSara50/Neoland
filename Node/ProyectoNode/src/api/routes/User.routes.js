@@ -44,7 +44,7 @@ UserRoutes.patch("/changepassword", [isAuth], modifyPassword);
 UserRoutes.patch("/update/update", [isAuth], upload.single("image"), update);
 /*método delete para borrar usuario. */
 UserRoutes.delete("/", [isAuth], deleteUser);
-/*el método get es para obtenoer todo el body (getAll) byId por identificador Id o
+/*el método get es para obtenoer identificadores del usuario. getAll byId por identificador Id o
  por los diferentes parametros del body*/
 UserRoutes.get("/", getAll);
 UserRoutes.get("/finById/:id", byId);

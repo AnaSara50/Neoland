@@ -1,5 +1,6 @@
 const bcrypt = require("bcrypt"); // para encryptar informacion
 const validator = require("validator"); /// n os sirve para validad info
+//librería mongoose
 const mongoose = require("mongoose");
 
 // el nombre del esquema en mayusculas
@@ -24,7 +25,7 @@ const UserSchema = new mongoose.Schema(
       type: String,
       required: true,
       trim: true,
-      validate: [validator.isStrongPassword], //minLength: 8, minLowercase: 1, minUppercase: 1, minNumbers: 1, minSymbols: 1
+      validate: [validator.isStrongPassword], //minLength: 8, minLowercase: 1, minUppercase: 1, minNumbers: 1, minSymbols: 1 requisitos de la contraseña
     },
     gender: {
       type: String,
