@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#imagen {
+    display: block;
+}
+
+a:hover {
+    color: #ff6464;
+}
+
+.form-wrap {
+    margin: 2rem 0 2rem 0;
+    background:#fdefc4;
+    padding: 15px 25px 30px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.form-wrap h1,
+.form-wrap p {
+    text-align: center;
+}
+
+.form-wrap .form-group {
+    margin-top: 15px;
+}
+
+.form-wrap .form-group label {
+    color: #fff;
+    font-weight: normal;
+}
+
+.form-wrap .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: solid 2px #0D5FA6;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    caret-color: #0D5FA6;
+    background: #0D5FA6;
+    color: #fff;
+}
+
+.sexo {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sexo .hombre {
+    border-radius: 3px 0 0 3px;
+    background: #0D5FA6;
+    color: white !important;
+}
+
+.sexo .mujer {
+    border-radius: 0 3px 3px 0;
+    background: #0D5FA6;
+    color: white !important;
+}
+
+.label-radio {
+    background: #0D5FA6;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 49.5%;
+    margin-right: 5px;
+}
+
+input[type="radio"]:checked+.label-radio {
+    background: #0D5FA6;
+    color: #fff !important;
+}
+
+.anchorCustom {
+    color: white;
+}
+
+.custom-placeholder {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+}

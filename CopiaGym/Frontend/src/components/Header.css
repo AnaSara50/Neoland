@@ -1,0 +1,47 @@
+.nav-container {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: #0D5FA6;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.navbar a:hover {
+  color: orange;
+}
+
+.logoNav {
+  height: 80px;
+}
+
+.profileIconNav {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+}
